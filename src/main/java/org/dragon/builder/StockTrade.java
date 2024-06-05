@@ -1,11 +1,14 @@
 package org.dragon.builder;
 
+import lombok.Data;
+
 /**
  * 股票交易
  *
  * @author mumu
  * @date 2024/06/04
  */
+@Data
 public class StockTrade {
     /**
      * 交易类型

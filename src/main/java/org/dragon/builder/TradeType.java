@@ -1,5 +1,15 @@
 package org.dragon.builder;
 
+import lombok.Data;
+import lombok.Getter;
+
+/**
+ * 交易类型
+ *
+ * @author mumu
+ * @date 2024/06/05
+ */
+@Getter
 public enum TradeType {
     DAY_TRADING("日内交易"),
     SWING_TRADING("摆动交易"),
@@ -12,7 +22,4 @@ public enum TradeType {
         this.description = description;
     }
 
-    public String getDescription() {
-        return description;
-    }
 }

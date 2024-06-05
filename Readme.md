@@ -8,3 +8,4 @@
 |------|-----------------|
 | 工厂方法 | factorymethod   |
 | 抽象工厂 | abstractfactory |
+| 生成器  | builder         |
