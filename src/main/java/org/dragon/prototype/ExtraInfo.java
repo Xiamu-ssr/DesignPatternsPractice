@@ -3,6 +3,8 @@ package org.dragon.prototype;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * 额外信息
  *
@@ -11,6 +13,14 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
-public class ExtraInfo {
+public class ExtraInfo implements Cloneable, Serializable {
     private String description;
+    @Override
+    protected Object clone() {
+        try {
+            return super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

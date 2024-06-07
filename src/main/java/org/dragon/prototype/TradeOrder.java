@@ -46,6 +46,15 @@ public class TradeOrder implements Cloneable, DeepCloneable<TradeOrder>{
 
     @Override
     public TradeOrder deepClone() {
-        return new TradeOrder(this);
+        TradeOrder cloned = null;
+        try {
+            cloned = (TradeOrder) super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new RuntimeException(e);
+        }
+        if (this.extraInfo != null) {
+            cloned.extraInfo = (ExtraInfo) this.extraInfo.clone();
+        }
+        return cloned;
     }
 }
