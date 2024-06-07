@@ -14,3 +14,4 @@
 | 适配器  | adapter         | :star:             | :star::star::star: |
 | 桥接   | bridge          | :star::star::star: | :star:             |
 | 组合   | composite       | :star::star:       | :star::star:       |
+| 装饰   | decorator       | :star::star:       | :star::star:       |
