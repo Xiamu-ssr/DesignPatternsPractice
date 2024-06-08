@@ -21,4 +21,15 @@
 | 装饰  | [decorator](./src/main/java/org/dragon/decorator) | :snowflake::snowflake:            | :star::star:       |
 | 外观  | [facade](./src/main/java/org/dragon/facade)       | :snowflake:                       | :star::star:       |
 | 享元  | [flyweight](./src/main/java/org/dragon/flyweight) | :snowflake::snowflake::snowflake: | :star:             |
-| 享元  | [proxy](./src/main/java/org/dragon/proxy)         | :snowflake::snowflake:            | :star:             |
+| 代理  | [proxy](./src/main/java/org/dragon/proxy)         | :snowflake::snowflake:            | :star:             |
+
+### 行为模式
+|     | 软件包                                                                       | 复杂度                    | 流行度    |
+|-----|---------------------------------------------------------------------------|------------------------|--------|
+| 责任链 | [chainofresponsibility](./src/main/java/org/dragon/chainofresponsibility) | :snowflake::snowflake: | :star: |
+
+
+
+
+
+
