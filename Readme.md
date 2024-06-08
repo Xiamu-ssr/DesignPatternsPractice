@@ -28,6 +28,7 @@
 |-----|---------------------------------------------------------------------------|------------------------|--------------------|
 | 责任链 | [chainofresponsibility](./src/main/java/org/dragon/chainofresponsibility) | :snowflake::snowflake: | :star:             |
 | 命令  | [command](./src/main/java/org/dragon/command)                             | :snowflake:            | :star::star::star: |
+| 迭代器 | [iterator](./src/main/java/org/dragon/iterator)                           | :snowflake::snowflake: | :star::star::star: |
 
 
 
